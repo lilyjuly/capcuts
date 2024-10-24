@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/pexels-wolpido-1472999.jpg'); /* အနောက်ခံရုပ်ပုံလမ်းကြောင်းကိုပြောင်းပါ */
+    background-image: url('/images/pexels-wolpido-1472999.jpg'); /* အနောက်ခံရုပ်ပုံလမ်းကြောင်းကိုပြောင်းပါ */
     background-size: cover; /* ရုပ်ပုံကို ဖုံးလွှမ်းရန် */
     background-position: center; /* အလယ်အနက်တွင်ဖျော်ဖြေရန် */
     margin: 0;
