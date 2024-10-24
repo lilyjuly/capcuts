@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/pexels-wolpido-1472999.jpg'); /* အနောက်ခံရုပ်ပုံလမ်းကြောင်းကိုပြောင်းပါ */
+    background-size: cover; /* ရုပ်ပုံကို ဖုံးလွှမ်းရန် */
+    background-position: center; /* အလယ်အနက်တွင်ဖျော်ဖြေရန် */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1 4px 20px rgba(0, 0, 0, 0.3);
+    transform: rotateY(-10deg); /* Slight rotation */
+    width: 400px;
+    height: 100%; /* Make it taller like a book */
+}
+
+h1 {
+    text-align: center;
+}
+
+.background-selector {
+    margin: 10px 0;
+}
+.timestamp {
+    font-size: 1.2em; /* Size for visibility */
+    color: white; /* White color for better contrast */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px black; /* Add a shadow for better readability */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none; /* Prevent resizing of the textarea */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.edit-delete {
+    display: flex;
+    justify-content: space-around; /* Make buttons aligned properly */
+    margin-top: 1000px; /* Add margin for spacing */
+    /* Add any other styles you want here */
+}
+
+
+.entry {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /* This keeps the structure of the entry */
+}
+
+.entry .timestamp {
+    font-size: 0.8em;
+    color: white;
+    background-color: #000; /* Black background */
+    display: block;
+    margin-top: 10px; /* Add space between the text and timestamp */
+}
+
+.edit-delete {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Add space between the text and the buttons */
+}
+
+.edit-delete button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 5px 10px; /* Adjust the button padding */
+    margin-left: 5px; /* Space between the Edit and Delete buttons */
+    cursor: pointer;
+}
+
+.edit-delete button:hover {
+    background-color: #0056b3;
+}
+
+
+#password-container, #entries-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
+    color: white; /* Text color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#password {
+    width: 80%; /* Set the width of the password input */
+    padding: 5px; /* Padding for better appearance */
+    margin-bottom: 10px; /* Margin for spacing */
+}
